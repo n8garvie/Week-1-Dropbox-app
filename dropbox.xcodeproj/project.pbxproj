@@ -18,6 +18,10 @@
 		C8EC2EFB1BD9492F000357CB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC2EFA1BD9492F000357CB /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C8EC2FAD1BDA8955000357CB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC2FAC1BDA8955000357CB /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C8EC2FAF1BDA9903000357CB /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC2FAE1BDA9903000357CB /* ExistingPhotosViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C8EC2FB11BDB046F000357CB /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC2FB01BDB046F000357CB /* FavouritesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C8EC2FB31BDB048E000357CB /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC2FB21BDB048E000357CB /* FilesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C8EC2FB51BDE7895000357CB /* EmptyPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC2FB41BDE7895000357CB /* EmptyPhotosViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C8EC2FB71BDE7BF6000357CB /* ExistingSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC2FB61BDE7BF6000357CB /* ExistingSettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		C8EC2EFA1BD9492F000357CB /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		C8EC2FAC1BDA8955000357CB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C8EC2FAE1BDA9903000357CB /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPhotosViewController.swift; sourceTree = "<group>"; };
+		C8EC2FB01BDB046F000357CB /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		C8EC2FB21BDB048E000357CB /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		C8EC2FB41BDE7895000357CB /* EmptyPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyPhotosViewController.swift; sourceTree = "<group>"; };
+		C8EC2FB61BDE7BF6000357CB /* ExistingSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +115,12 @@
 			children = (
 				C8EC2EC81BD7E3CF000357CB /* AppDelegate.swift */,
 				C8EC2ECA1BD7E3CF000357CB /* ViewController.swift */,
+				C8EC2FB61BDE7BF6000357CB /* ExistingSettingsViewController.swift */,
 				C8EC2FAC1BDA8955000357CB /* SettingsViewController.swift */,
 				C8EC2ECC1BD7E3CF000357CB /* Main.storyboard */,
+				C8EC2FB41BDE7895000357CB /* EmptyPhotosViewController.swift */,
+				C8EC2FB01BDB046F000357CB /* FavouritesViewController.swift */,
+				C8EC2FB21BDB048E000357CB /* FilesViewController.swift */,
 				C8EC2FAE1BDA9903000357CB /* ExistingPhotosViewController.swift */,
 				C8EC2EFA1BD9492F000357CB /* SignInViewController.swift */,
 				C8EC2EF61BD93940000357CB /* CreateAccountViewController.swift */,
@@ -275,7 +287,11 @@
 				C8EC2EF71BD93940000357CB /* CreateAccountViewController.swift in Sources */,
 				C8EC2ECB1BD7E3CF000357CB /* ViewController.swift in Sources */,
 				C8EC2FAD1BDA8955000357CB /* SettingsViewController.swift in Sources */,
+				C8EC2FB11BDB046F000357CB /* FavouritesViewController.swift in Sources */,
+				C8EC2FB71BDE7BF6000357CB /* ExistingSettingsViewController.swift in Sources */,
+				C8EC2FB31BDB048E000357CB /* FilesViewController.swift in Sources */,
 				C8EC2EC91BD7E3CF000357CB /* AppDelegate.swift in Sources */,
+				C8EC2FB51BDE7895000357CB /* EmptyPhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,19 +1,19 @@
 //
-//  SignInViewController.swift
+//  EmptyPhotosViewController.swift
 //  dropbox
 //
-//  Created by Nathan Garvie on 10/22/15.
+//  Created by Nathan Garvie on 10/26/15.
 //  Copyright © 2015 Nathan. All rights reserved.
 //
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class EmptyPhotosViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.title = "Photos"
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,9 +21,6 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func didTapCancel(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
-    }
 
     /*
     // MARK: - Navigation

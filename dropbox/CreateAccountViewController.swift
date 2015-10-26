@@ -17,7 +17,7 @@ class CreateAccountViewController: UIViewController {
     }
 
     @IBAction func tapBackButton(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+        dismissViewControllerAnimated(true, completion: nil)
     }
 
     @IBAction func tapDone(sender: AnyObject) {

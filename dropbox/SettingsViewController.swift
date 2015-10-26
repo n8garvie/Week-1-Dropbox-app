@@ -10,6 +10,7 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var imageView: UIImageView!
     
@@ -18,6 +19,7 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
 
         scrollView.contentSize = imageView.frame.size
+        self.title = "Settings"
     }
 
     @IBAction func tapSignOut(sender: AnyObject) {

@@ -17,6 +17,7 @@ class ExistingPhotosViewController: UIViewController {
         super.viewDidLoad()
 
         scrollView.contentSize = imageView.frame.size
+        self.title = "Photos"
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,19 +1,29 @@
 //
-//  SignInViewController.swift
+//  ExistingSettingsViewController.swift
 //  dropbox
 //
-//  Created by Nathan Garvie on 10/22/15.
+//  Created by Nathan Garvie on 10/26/15.
 //  Copyright © 2015 Nathan. All rights reserved.
 //
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class ExistingSettingsViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var imageView: UIImageView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        scrollView.contentSize = imageView.frame.size
+        self.title = "Settings"
         // Do any additional setup after loading the view.
+    }
+    @IBAction func onLogOutTap(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,9 +31,6 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func didTapCancel(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
-    }
 
     /*
     // MARK: - Navigation
