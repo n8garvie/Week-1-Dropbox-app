@@ -25,6 +25,7 @@
 		C8EC2FB91BDE9EA5000357CB /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC2FB81BDE9EA5000357CB /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C8EC2FBB1BDE9ED4000357CB /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC2FBA1BDE9ED4000357CB /* CreateAccountRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C8EC2FBD1BDF378D000357CB /* SignInFilledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC2FBC1BDF378D000357CB /* SignInFilledViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C8EC2FBF1BDF3D0D000357CB /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC2FBE1BDF3D0D000357CB /* TermsOfServiceViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		C8EC2FB81BDE9EA5000357CB /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		C8EC2FBA1BDE9ED4000357CB /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		C8EC2FBC1BDF378D000357CB /* SignInFilledViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInFilledViewController.swift; sourceTree = "<group>"; };
+		C8EC2FBE1BDF3D0D000357CB /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				C8EC2FB61BDE7BF6000357CB /* ExistingSettingsViewController.swift */,
 				C8EC2FAC1BDA8955000357CB /* SettingsViewController.swift */,
 				C8EC2ECC1BD7E3CF000357CB /* Main.storyboard */,
+				C8EC2FBE1BDF3D0D000357CB /* TermsOfServiceViewController.swift */,
 				C8EC2FB41BDE7895000357CB /* EmptyPhotosViewController.swift */,
 				C8EC2FB01BDB046F000357CB /* FavouritesViewController.swift */,
 				C8EC2FB21BDB048E000357CB /* FilesViewController.swift */,
@@ -302,6 +305,7 @@
 				C8EC2FB91BDE9EA5000357CB /* SignInRootViewController.swift in Sources */,
 				C8EC2FB71BDE7BF6000357CB /* ExistingSettingsViewController.swift in Sources */,
 				C8EC2FB31BDB048E000357CB /* FilesViewController.swift in Sources */,
+				C8EC2FBF1BDF3D0D000357CB /* TermsOfServiceViewController.swift in Sources */,
 				C8EC2EC91BD7E3CF000357CB /* AppDelegate.swift in Sources */,
 				C8EC2FB51BDE7895000357CB /* EmptyPhotosViewController.swift in Sources */,
 			);
