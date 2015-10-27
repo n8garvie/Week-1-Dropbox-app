@@ -1,14 +1,14 @@
 //
-//  SignInViewController.swift
+//  SignInFilledViewController.swift
 //  dropbox
 //
-//  Created by Nathan Garvie on 10/22/15.
+//  Created by Nathan Garvie on 10/26/15.
 //  Copyright © 2015 Nathan. All rights reserved.
 //
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class SignInFilledViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,18 +16,15 @@ class SignInViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func onTapWelcome(sender: AnyObject) {
+        navigationController!.popViewControllerAnimated(true)
+
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onTapWelcome(sender: AnyObject) {
-        navigationController!.popViewControllerAnimated(true)
-    }
-    
-    @IBAction func didTapCancel(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
-    }
 
     /*
     // MARK: - Navigation
